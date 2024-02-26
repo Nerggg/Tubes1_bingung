@@ -21,6 +21,15 @@ class AutowinLogic(object):
 
             # ALGORITMA YANG DIUBAH DISINI AJA YAK
             ## algoritma yg baru gw tambahin masih penghitung jarak diamond terdekat
+            ### masih belum konsiderasi diamond merah atau biru (todo) (dan kayanya gabisa)
+            ### dan belum konsiderasi penggunaan portal (todo)
+
+            ## perhitungkan diamond kotak merah
+            ### kalo diamond merah dan biru kejauhan, incar diamond kotak
+
+            # for i in range(len(board.game_objects)):
+            #     print("ini anggota board nya ", board.game_objects[i].type)
+
             min = int(0)
             for i in range (len(board.diamonds)):
                 xMinDist = (abs(board_bot.position.x - board.diamonds[min].position.x)) 
