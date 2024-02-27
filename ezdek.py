@@ -22,6 +22,7 @@ class EzDek(object):
                 self.goal_position = base
         else:
             min = int(0)
+            print("ezdek")
             for i in range (len(board.diamonds)):
                 cek1 = 0
                 cek2 = 0
@@ -34,15 +35,16 @@ class EzDek(object):
                     newDist = xNewDist + yNewDist 
 
                     for j in range(len(board.bots)):
-                        xbotDist = (abs(board.bots[j].position.x - board.diamonds[i].position.x)) 
-                        ybotDist = (abs(board.bots[j].position.y - board.diamonds[i].position.y)) 
-                        botDist = xbotDist + ybotDist
+                        if(board_bot.position.x != board.bots[j].position.x or board_bot.position.y != board.bots[j].position.y):
+                            xbotDist = (abs(board.bots[j].position.x - board.diamonds[i].position.x)) 
+                            ybotDist = (abs(board.bots[j].position.y - board.diamonds[i].position.y)) 
+                            botDist = xbotDist + ybotDist
 
-                        if (minDist >= botDist):
-                            cek1 = 1
-        
-                        if (newDist >= botDist):
-                            cek2 = 1
+                            if (minDist >= botDist):
+                                cek1 = 1
+            
+                            if (newDist >= botDist):
+                                cek2 = 1
 
                     if (cek1 == 1 and cek2 == 2):
                         if (newDist < minDist):
