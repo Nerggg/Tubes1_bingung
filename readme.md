@@ -12,6 +12,7 @@
 - [How to Use](#how-to-use)
   - [Setup Game Engine](#setup-game-engine)
   - [Setup Bot](#setup-bot)
+  - [Video Demo](#video-demo)
 
 ## General Information
 
@@ -137,3 +138,7 @@ Algoritma greedy merupakan pendekatan yang populer dalam pemecahan persoalan opt
    ```
    python main.py --logic Pulang --email=bingung@example.com --name=pulang --password=bingung --team bingung
    ```
+
+## Video Demo
+
+https://youtu.be/zSz0QU0fojI
