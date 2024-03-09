@@ -11,6 +11,7 @@
 - [Dependencies](#dependencies)
 - [How to Use](#how-to-use)
   - [Setup Game Engine](#setup-game-engine)
+  - [Setup Bot](#setup-bot)
 
 ## General Information
 
