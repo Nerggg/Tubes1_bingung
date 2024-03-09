@@ -12,7 +12,7 @@
 - [How to Use](#how-to-use)
   - [Setup Game Engine](#setup-game-engine)
   - [Setup Bot](#setup-bot)
-  - [Video Demo](#video-demo)
+- [Video Demo](#video-demo)
 
 ## General Information
 
